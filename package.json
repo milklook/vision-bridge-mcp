@@ -1,0 +1,36 @@
+{
+  "name": "@old_young_man/vision-bridge-mcp",
+  "version": "1.1.1",
+  "description": "MCP server for image analysis via ModelScope multimodal LLM (Qwen/Qwen3.5)",
+  "type": "module",
+  "bin": {
+    "vision-bridge-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "vision",
+    "image-analysis",
+    "modelscope",
+    "qwen",
+    "claude-code"
+  ],
+  "author": "feiyu",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "sharp": "^0.34.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.19",
+    "typescript": "^5.7.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}
