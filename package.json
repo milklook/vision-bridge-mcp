@@ -18,6 +18,14 @@
     "qwen",
     "claude-code"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milklook/vision-bridge-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milklook/vision-bridge-mcp/issues"
+  },
+  "homepage": "https://github.com/milklook/vision-bridge-mcp#readme",
   "author": "feiyu",
   "license": "ISC",
   "dependencies": {
